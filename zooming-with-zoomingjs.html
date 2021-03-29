@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
+    <link rel="stylesheet" href="./css/main3.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <section class="header">
+        <h2>Zooming</h2>
+
+        <div class="value-img">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/journey_start_thumbnail.jpg"
+            data-action="zoom"
+            data-original="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/journey_start.jpg"
+            alt="journey_start_thumbnail"
+          />
+        </div>
+      </section>
+
+      <section class="content">
+        <h4>Image zoom that makes sense.</h4>
+
+        <ul>
+          <li>Pure JavaScript &amp; built with mobile in mind.</li>
+          <li>Smooth animations with intuitive gestures.</li>
+          <li>Zoom into a hi-res image if supplied.</li>
+          <li>Easy to integrate &amp; customizable.</li>
+        </ul>
+
+        <div class="value-img">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/journey_thumbnail.jpg"
+            data-action="zoom"
+            data-original="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/journey.jpg"
+            alt="journey_thumbnail"
+          />
+        </div>
+
+        <p>
+          <em
+            >Faced with rolling sand dunes, age-old ruins, caves and howling
+            winds, your passage will not be an easy one. The goal is to get to
+            the mountaintop, but the experience is discovering who you are, what
+            this place is, and what is your purpose.</em
+          >
+        </p>
+
+        <div class="row">
+          <a class="button" id="btn-fast" onclick="fast()">faster</a>
+          <a class="button" id="btn-slow" onclick="slow()">slow down</a>
+          <a class="button" id="btn-dark" onclick="dark()">make it dark</a>
+          <a class="button" id="btn-no-grab" onclick="noGrab()">no grab</a>
+        </div>
+
+        <hr />
+      </section>
+
+      <br />
+    </div>
+    <script
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/zooming.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="./js/main3.js" type="text/javascript"></script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+//animation styles
+.btn {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 1em;
+  height: 200px;
+  width: 300px;
+  background-image: url(https://picsum.photos/300/200?image=112);
+  background-size: 110% 110%;
+  background-position: center center;
+  transition-duration: 0.4s;
+  .btn__text {
+    margin: 0;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    z-index: 1;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+.btn:hover {
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+//container styles
+main,
+aside {
+  width: 60%;
+  margin: 0% 20%;
+  display: inline-block;
+  float: left;
+  font-family: comfortaa;
+  .wrapper {
+    padding: 1em;
+  }
+}
+main {
+  text-align: center;
+}
+
+//description styles
+.description {
+  em {
+    color: gray;
+    font-size: 0.9em;
+  }
+  a {
+    color: forestgreen;
+    text-decoration: none;
+  }
+  ul {
+    li {
+      margin: 0 0 1em 0;
+    }
+  }
+}
